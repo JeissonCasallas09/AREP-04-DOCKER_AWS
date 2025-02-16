@@ -1,6 +1,6 @@
-# AREP-04 MODULACION POR MEDIO DE VIRTUALIZACION USANDO DOCKER Y AWS
+## AREP-04 MODULATION THROUGH VIRTUALIZATION USING DOCKER AND AWS
 
-Para este proyecto, se desarrollo un microservidor concurrente, usando tecnologias como Java, Javascript, CSS y HTML. Esto con el fin de probar funcionalidades como Peticiones REST, concurrencia en el servidor, virtualización usando docker y despliegues con ayuda de DockerHub y AWS.
+For this project, a concurrent microserver was developed using technologies such as Java, JavaScript, CSS, and HTML. The goal was to test functionalities such as REST requests, server concurrency, virtualization using Docker, and deployments with the help of DockerHub and AWS.
 
 ![](images/DESPLIEGUE.gif)
 
