@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-section">
+            <h1>Greeting</h1>
+            <img src="https://github.com/jeissonCasallas09.png" alt="Image1" class="image-section">
+            <form action="/greeting">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" value="John">
+                </div>
+                <div class="form-actions">
+                    <input type="button" value="Submit" onclick="loadGetMsg()">
+                </div>
+            </form>
+            <div id="getrespmsg" class="response-message"></div>
+        </div>
+        <div class="form-section">
+            <h1>index</h1>
+            <img src="https://github.com/jeissonCasallas09.png" alt="Image2" class="image-section">
+            <form action="/">
+                <div class="form-actions">
+                    <input type="button" value="Submit" onclick="loadPostMsg()">
+                </div>
+            </form>
+            <div id="postrespmsg" class="response-message"></div>
+        </div>
+        <div class="form-section">
+            <h1>Count Chars</h1>
+            <img src="https://github.com/jeissonCasallas09.png" alt="Image1" class="image-section">
+            <form action="/countChars">
+                <div class="form-group">
+                    <label for="name2">Name:</label>
+                    <input type="text" id="name2" name="name" value="John">
+                </div>
+                <div class="form-actions">
+                    <input type="button" value="Submit" onclick="loadGetCountChars()">
+                </div>
+            </form>
+            <div id="getcountChars" class="response-message"></div>
+        </div>
+
+        <div class="form-section">
+            <h1>Concat</h1>
+            <img src="https://github.com/jeissonCasallas09.png" alt="Image1" class="image-section">
+            <form action="/countChars">
+                <div class="form-group">
+                    <label for="valor1">Name:</label>
+                    <input type="text" id="valor1" name="name" value="John">
+                </div>
+                <div class="form-group">
+                    <label for="valor2">Name:</label>
+                    <input type="text" id="valor2" name="name" value="John">
+                </div>
+                <div class="form-actions">
+                    <input type="button" value="Submit" onclick="loadGetConcat()">
+                </div>
+            </form>
+            <div id="getconcat" class="response-message"></div>
+        </div>
+
+        <div class="form-section">
+            <h1>Max Number</h1>
+            <img src="https://github.com/jeissonCasallas09.png" alt="Image1" class="image-section">
+            <form action="/countChars">
+                <div class="form-group">
+                    <label for="numero1">Number 1:</label>
+                    <input type="text" id="numero1" name="name" value="1">
+                </div>
+                <div class="form-group">
+                    <label for="numero2">Number 2:</label>
+                    <input type="text" id="numero2" name="name" value="2">
+                </div>
+                <div class="form-group">
+                    <label for="numero3">Number 3:</label>
+                    <input type="text" id="numero3" name="name" value="3">
+                </div>
+                <div class="form-actions">
+                    <input type="button" value="Submit" onclick="loadGetMax()">
+                </div>
+            </form>
+            <div id="getmax" class="response-message"></div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
